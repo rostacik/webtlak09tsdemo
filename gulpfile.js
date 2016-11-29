@@ -105,9 +105,11 @@ gulp.task("docuSrc", function() {
 
 //standalone ts lint task for command line
 gulp.task("tslint", function() {
-    gulp.src(["src/**/*.ts"])
-        .pipe(tslint())
-        .pipe(tslint.report("verbose"));
+    gulp.src("src/*.ts")
+        .pipe(tslint({
+            formatter: "verbose"
+        }))
+        .pipe(tslint.report());
 });
 
 gulp.task('buildAll', ['buildSrc', 'buildTests']);

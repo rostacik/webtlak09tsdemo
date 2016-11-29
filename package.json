@@ -11,6 +11,7 @@
   "devDependencies": {
     "@types/is": "0.0.17",
     "@types/mocha": "^2.2.33",
+    "@types/node": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "^3.0.1",
