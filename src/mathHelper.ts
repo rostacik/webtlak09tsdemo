@@ -1,4 +1,4 @@
-import * as is from "is_js";
+import * as is from "is";
 
 /**
  * math helper
