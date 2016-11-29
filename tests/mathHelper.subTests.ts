@@ -59,5 +59,11 @@ describe('mathHelper tests', () => {
 
       assert.equal(res, 0);
     });
+
+        it('should return 0 from 7 - 7', () => {
+      let res: number = MathHelper.sub(7, 7);
+
+      assert.equal(res, 0);
+    });
   });
 });
