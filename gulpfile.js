@@ -104,11 +104,9 @@ gulp.task("docuSrc", function() {
 });
 
 //standalone ts lint task for command line
-gulp.task("tslint", function() {
-    gulp.src("src/*.ts")
-        .pipe(tslint({
-            formatter: "verbose"
-        }))
+gulp.task('tslint', function() {
+    return gulp.src(['**/*.ts', '!**/*.d.ts', '!node_modules/**'])
+        .pipe(tslint())
         .pipe(tslint.report());
 });
 
