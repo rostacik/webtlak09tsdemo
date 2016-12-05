@@ -102,8 +102,8 @@ List of most of definition files : [http://definitelytyped.org/](http://definite
 
 Managers to &quot;bring in&quot; .d.ts files from 1.x TS times :
 
-- --tsd ( [https://github.com/DefinitelyTyped/tsd](https://github.com/DefinitelyTyped/tsd))
-- --typings ( [https://github.com/typings/typings](https://github.com/typings/typings))
+- tsd ( [https://github.com/DefinitelyTyped/tsd](https://github.com/DefinitelyTyped/tsd))
+- typings ( [https://github.com/typings/typings](https://github.com/typings/typings))
 
 TS 2.x style of getting .d.ts files :
 
